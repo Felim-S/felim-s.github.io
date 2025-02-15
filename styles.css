@@ -1,0 +1,34 @@
+*{
+    background-color: rgb(48, 48, 48);
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar ol{
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    background-color: rgb(37, 37, 37);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 77%);
+}
+
+.navbar a:active{
+    background-color: hsl(0, 0%, 90%);
+}
+
+.navbar li{
+    float: left;
+}
