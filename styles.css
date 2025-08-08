@@ -4,6 +4,14 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+a:hover{
+    color: rgb(83, 175, 255);
+}
+
+a:active{
+    color: rgb(22, 146, 255);
+}
+
 .navbar ol{
     font-size: 20px;
     list-style-type: none;
