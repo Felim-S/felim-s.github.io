@@ -1,7 +1,17 @@
-*{
+body{
     background-color: rgb(33, 33, 33);
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    color: aliceblue;
+}
+
+video{
+    width: 500px;
+    max-width: 100%;
+    height: auto;
 }
 
 a:hover{

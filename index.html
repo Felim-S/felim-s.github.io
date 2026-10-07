@@ -4,23 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Portfolio</title>
+    <title>Felim Sullivan – Portfolio</title>
 </head>
 <body>
     <header>
         <h1>Felim Sullivan</h1>
-        <h3>Email: felim.sullivan@gmail.com</h2>
-        <h3>LinkedIn:<a href="https://www.linkedin.com/in/felim-sullivan-75b320333/" target="_blank">@FelimSullivan</a></h2>
+        <h3>Email: <a href="mailto:felim.sullivan@gmail.com">felim.sullivan@gmail.com</a></h3>
+        <h3>LinkedIn: <a href="https://www.linkedin.com/in/felim-sullivan-75b320333/" target="_blank">@FelimSullivan</a></h3>
     </header>
 
     <nav class="navbar">
         <ol>
             <li><a href="#about">About</a></li>
-            <li><a href="#work experience">Experience</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="https://github.com/Felim-S" target="_blank"><i id="github-icon" class="fa-brands fa-github"></i></a></li>
-            <li><a href="CV - 07102026.pdf" download>CV</a></li>
+            <li><a href="https://github.com/Felim-S" target="_blank" aria-label="GitHub"><i id="github-icon" class="fa-brands fa-github"></i></a></li>
         </ol>
     </nav>
 
@@ -49,8 +48,8 @@
             <li>Python</li>
             <li>Bash</li>
         </ul>
-        <br id="work experience">
-        <h2>Work Experience</h2>
+        <br>
+        <h2 id="experience">Work Experience</h2>
         <h3>Microsoft - Software Engineer Internship (June-August, 2026)</h3>
         <p>
             I worked on the “Content Store Dublin” team within SharePoint over the course of my internship. 
@@ -81,9 +80,9 @@
             certificate exams during 5th year, 2022 in Templeogue College.
         </p>
         
-        <br id="projects">
+        <br>
 
-        <h2>Projects</h2>
+        <h2 id="projects">Projects</h2>
         <p>In my free time I often work on side projects to challenge myself and further my understanding. 
             I chose to highlight a few notable projects here as I feel they demonstrate a wide range of skills.
             These include personal projects, hackathon projects, and projects completed as part of my degree.
@@ -93,12 +92,12 @@
             <li><a href="#fyp">Cybersecurity Learning Tool - Final Year Project</a></li>
             <li><a href="#riff">Riff - Music Version Control</a></li>
             <li><a href="#marketplace">Marketplace Web Application</a></li>
-            <li><a href="#sorting algorithms visualiser">Sorting Algorithms Visualiser</a></li>
-            <li><a href="#weather app">Weather App</a></li>
+            <li><a href="#sorting-visualiser">Sorting Algorithms Visualiser</a></li>
+            <li><a href="#weather">Weather App</a></li>
         </ol>
-        
-        <br id="fyp">
-        <h3>Cybersecurity Learning Tool - Final Year Project</h3>
+
+        <br>
+        <h3 id="fyp">Cybersecurity Learning Tool - Final Year Project</h3>
         <p>
             As part of my degree, I am required to complete a more substantial project over the course of my final
             year, and so this is that project. As of now it is still a work in progress, and so I can't share much, but here's 
@@ -123,47 +122,49 @@
             <li>Basic usability evaluation</li>
         </ul>
         
-        <br id="riff">
-        <h3>Riff - Music Version Control</h3>
+        <br>
+        <h3 id="riff">Riff - Music Version Control</h3>
         <p>
             I completed this project during my internship at Microsoft as part of their Intern Hackathon. I was part of a
             team of three people (myself included), and my main responsibility was to create the working demo that you see
             displayed below. We created "Riff", a version control tool built for musicians, producers, and songwriters to
             enable better collaboration. We addressed the problem of online music collaboration today being messy and unorganised and 
             aimed to solve this problem. The tool uses a Git-like syntax (the working title of the project was "Git for musicians") 
-            which will feel familiar to technical users. We also had plans to create a UI version later to be more accomodating 
+            which will feel familiar to technical users. We also had plans to create a UI version later to be more accommodating
             to non-technical users.
         </p>
-        <video width="500px" autoplay muted loop controls>
+        <video preload="none" muted loop playsinline controls>
             <source src="videos/Riff Demo Video - Trimmed.mp4" type="video/mp4">
         </video>
         <p><a href="https://github.com/Felim-S/riff" target="_blank">Riff - GitHub Repository</a></p>
         
-        <br id="marketplace">
-        <h3>Marketplace Web Application</h3>
+        <br>
+        <h3 id="marketplace">Marketplace Web Application</h3>
         <p>
-            This is a simple web application to simulate an online marketplace (specifically, a fake online coffee shop). 
-            It was completed as part of a university course on web development. 
+            This is a simple web application to simulate an online marketplace (specifically, a fake online coffee shop).
+            It was completed as part of a university course on web development.
             The app distinguishes two types of users:
-            <ol>
-                <li>User: users can explore the homepage, inspect item descriptions, add items to their basket, checkout, and view their orders.</li>
-                <li>Admin: admins can do all the same tasks as users while also being able to add/remove/edit item descriptions, prices, etc. and update the status of orders.</li>
-            </ol>
-            This project reinforced my skills in basic web development while also exposing me to more advanced topics such as programming
-            with frameworks such as SpringBoot, ThymeLeaf, and using databases from within Java code.
         </p>
-        <video width="500px" autoplay muted loop controls>
+        <ol>
+            <li>User: users can explore the homepage, inspect item descriptions, add items to their basket, checkout, and view their orders.</li>
+            <li>Admin: admins can do all the same tasks as users while also being able to add/remove/edit item descriptions, prices, etc. and update the status of orders.</li>
+        </ol>
+        <p>
+            This project reinforced my skills in basic web development while also exposing me to more advanced topics such as programming
+            with frameworks such as Spring Boot, Thymeleaf, and using databases from within Java code.
+        </p>
+        <video preload="none" muted loop playsinline controls>
             <source src="videos/Marketplace - Demo Video Trimmed.mp4" type="video/mp4">
         </video>
         <p><a href="https://github.com/Felim-S/marketplace" target="_blank">Marketplace - GitHub Repository</a></p>
         
-        <br id="sorting algorithms visualiser">
-        <h3>Sorting Algorithm Visualiser</h3>
+        <br>
+        <h3 id="sorting-visualiser">Sorting Algorithms Visualiser</h3>
         <p>It is inevitable that every student of computer science will eventually have to study data structures and algorithms, and more specifically, sorting algorithms.</p>
         <p>The goal of this project was to create a tool to aid in the learning of these algorithms, and gain a more intuitive understanding of how they work. It's one thing to read about 
             an algorithm and its various steps to arriving at a solution, but to be able to see each of these steps and visualise them in real time was greatly beneficial to my understanding of them.
         </p>
-        <p>I chose to implement a wide range of algorithms of varying time and space complexities inlcuding:</p>
+        <p>I chose to implement a wide range of algorithms of varying time and space complexities including:</p>
         <ul>
             <li>Bubble Sort</li>
             <li>Selection Sort</li>
@@ -171,20 +172,20 @@
             <li>Insertion Sort</li>
         </ul>
         <p>I also added some other less common but interesting algorithms such as sleep sort and bogosort, and I plan on implementing more algorithms in the future.</p>
-        <video width="500px" autoplay muted loop controls>
+        <video preload="none" muted loop playsinline controls>
             <source src="videos/Sorting Algorithms Visualiser - Demo Video.mp4" type="video/mp4">
         </video>
         <p><a href="https://github.com/Felim-S/Sorting-Algorithms-Visualiser" target="_blank">Sorting Algorithms Visualiser - GitHub Repository</a></p>
         
-        <br id="weather">
-        <h3>Weather App</h3>
+        <br>
+        <h3 id="weather">Weather App</h3>
         <p>This project serves as a demonstration of my skills in web design. It was made entirely using HTML, CSS, and JavaScript.</p>
         <p>As you can see, there is a text box where you can enter the name of a City/Country. 
             Clicking the search icon gives some basic weather information about that location.
             It uses a weather API to fetch data so that it can be displayed to the user. 
             Additionally, there is functionality to switch whether the temperature is displayed in degrees Celsius or Fahrenheit by clicking the associated text.</p>
         <p>From this project I learned some fundamental JavaScript concepts, CSS animations, and how to fetch data from an API.</p>
-        <video width="500px" autoplay muted loop controls>
+        <video preload="none" muted loop playsinline controls>
             <source src="videos/Weather App - Demo Video.mp4" type="video/mp4">
         </video>
         <p><a href="https://github.com/Felim-S/Weather-App" target="_blank">Weather App - GitHub Repository</a></p>
@@ -195,7 +196,7 @@
         <p>You can contact me with any of the following:</p>
         <ul>
             <li>
-                Email: felim.sullivan@gmail.com
+                Email: <a href="mailto:felim.sullivan@gmail.com">felim.sullivan@gmail.com</a>
             </li>
             <li>
                 LinkedIn:
@@ -206,5 +207,6 @@
         </ul>
     </footer>
     <script src="https://kit.fontawesome.com/1c1db254c2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>
