@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(33, 33, 33);
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -22,7 +22,7 @@ a:active{
 
 .navbar a{
     color: white;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(48, 48, 48);
     text-decoration: none;
     padding: 10px;
     display: block;
@@ -39,4 +39,8 @@ a:active{
 
 .navbar li{
     float: left;
+}
+
+header{
+    text-align: center;
 }
